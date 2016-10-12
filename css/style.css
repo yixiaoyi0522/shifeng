@@ -1,0 +1,174 @@
+@charset "UTF-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------  header  -----------------------------*/
+.header{
+    width: 100%;
+    height: 32px;
+    line-height: 32px;
+    background-color: #E8E8E8;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header p{
+    margin-left: 72px;
+    float: left;
+    font-size: 12px;
+}
+
+.header ul li{
+    list-style: none;
+    float: left;
+    line-height: 32px;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+/*.header ul li */
+a:hover{
+    color: #4E81BD;
+}
+
+.h_list{
+    float: right;
+    margin-right: 110px;
+}
+
+/*  -----------------  nav   --------------*/
+.nav{
+    width: 100%;
+    height: 90px;
+}
+
+.nav img{
+    width: 220px;
+    height: 88px;
+    display: block;
+    float: left;
+    line-height: 90px;
+    margin-left: 80px;
+}
+
+.nav ul li{
+    list-style: none;
+    float: left;
+    line-height: 90px;
+    text-align: center;
+}
+
+.nav ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+}
+.shouye{
+    width: 77px;
+}
+.other{
+    width: 108px;
+}
+
+.n_right{
+    float: right;
+    line-height: 90px;
+    margin-right: 83px;
+    border-left: 1px solid #E8E8E8;
+}
+.n_list{
+    display: inline-block;
+    margin-left: 200px;
+}
+.shouye{
+    background-color: red;
+
+}
+.shouye a{
+    color: white;
+}
+.nav .n_list a:hover{
+    background-color: red;
+    color: white;
+}
+
+/*           content             */
+
+.content img{
+    width: 1349px;
+    height: 550px;
+}
+
+.content .section{
+    width: 90%;
+    height: 376px;
+    background-color: #F4F4F4;
+    margin: 0 auto;
+}
+.content .section .left{
+    width: 45%;
+    height: 376px;
+    margin-left: 20px;
+    float: left;
+}
+.content .section .left a{
+    font-size: 42px;
+    display: block;
+    margin-top: 50px;
+}
+
+.content .section .left p{
+    margin-top: 20px;
+
+}
+
+.content .section .left span{
+    font-size: 55px;
+    color: #07528C;
+}
+.p{
+    width: 200px;
+    color: #07528C;
+    float: left;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+.pp{
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+    font-size: 12px;
+}
+/*-- right---*/
+.content .section .right{
+    width: 45%;
+    float: left;
+}
+
+
+.content .section .right img{
+    width: 35%;
+    height: 50%;
+}
+
+.content .section .right{
+    float: left;
+}
+.top, .buttom,.top_l, .top_r, .buttom_l, .buttom_r{
+    float: left;
+}
+.top_r, .buttom_r{
+    width: 60%;
+    height: 50%;
+    float: left;
+}
+.top{
+    background-color: red;
+}
+
+

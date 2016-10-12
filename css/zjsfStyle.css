@@ -1,0 +1,171 @@
+@charset "UTF-8";
+body{
+    line-height: 1.8;
+}
+/*    section   图片   */
+.s_picture:before,.s_picture:after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.s_picture img{
+    position: relative;
+    left: -20%;
+    z-index: -1;
+}
+.s_picture .p_sub{
+    width: 306px;
+    height: 130px;
+    background: rgba(255,0,0,0.7);
+    position: relative;
+    top: -135px;
+    left: 75px;
+    color: white;
+}
+.s_picture .p_sub a{
+    color: white;
+}
+.s_picture .p_sub h1{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    font-size: 32px;
+}
+.s_picture .p_sub h3{
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.s_picture .p_sub .sub_s{
+    width: 31px;
+    height: 31px;
+    position: relative;
+    top: -84px;
+    left: 6px;
+}
+.s_picture .p{
+    width: 90%;
+    font-size: 16px;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+}
+
+/*    中间主要部分   */
+.main:before,.main:after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.main{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+}
+.main .father .left,
+.main .father .right{
+    width: 400px;
+    float: left;
+    height: 380px;
+}
+.main .father .middle{
+    width: 400px;
+    height: 380px;
+    float: left;
+}
+.main .father .middle .box{
+    padding: 30px;
+    font-size: 15px;
+}
+.main .father .left .imgbox {
+    width: 400px;
+    height: 380px;
+    overflow: hidden;
+}
+.main .father .left .imgbox h1 a{
+    color: white;
+    position: relative;
+    top: -350px;
+    left: 20px;
+}
+.main .father .left .imgbox p a{
+    color: white;
+    position: relative;
+    top: -350px;
+    left: 20px;
+}
+.main .father .left img{
+    transition: 0.5s ease all;
+}
+.main .father .left img:hover{
+    transform: scale(1.2,1.2);
+}
+.main .father .middle h2 a{
+    color: #175095;
+}
+.main .father .middle .span{
+    margin-top: 40px;
+}
+.main .father .middle .span span a{
+    color: #175095;
+    margin-right: 7%;
+}
+.main .father .right h1 a,
+.main .father .right p a{
+    position: relative;
+    top: -350px;
+    left: 20px;
+}
+.main .father .right h1 a{
+    color: red;
+}
+.main .father .right .ql a{
+    font-size: 14px;
+}
+.main .father .right .r_bottom a{
+    font-size: 20px;
+    position: relative;
+    top: -300px;
+    left: 120px;
+}
+.main .father .right .r_bottom span{
+    color: red;
+    font-size: 92px;
+}
+.main .father .right .b{
+    position: relative;
+    top: -30px;
+    float: left;
+    left: 97px;
+}
+
+.main .father .left2,
+.main .father .right2,
+.main .father .middle2{
+    float: left;
+    width: 400px;
+    height: 380px;
+
+}
+.main .father .middle2 .imgbox,
+.main .father .right2 .imgbox{
+    width: 400px;
+    height: 380px;
+    overflow: hidden;
+}
+.main .father .right2 img,
+.main .father .middle2 img{
+    transition: 0.5s ease all;
+}
+.main .father .middle2 img:hover,
+.main .father .right2 img:hover{
+    transform: scale(1.2,1.2);
+}
+

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+body{
+    line-height: 1.8;
+}
+/*    section   图片   */
+.s_picture:before,.s_picture:after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.s_picture img{
+    position: relative;
+    left: -20%;
+    z-index: -1;
+}
+.s_picture .p_sub{
+    width: 306px;
+    height: 130px;
+    background: rgba(255,0,0,0.7);
+    position: relative;
+    top: -135px;
+    left: 75px;
+    color: white;
+}
+.s_picture .p_sub a{
+    color: white;
+}
+.s_picture .p_sub h1{
+    position: relative;
+    top: 40px;
+    left: 40px;
+    font-size: 32px;
+}
+.s_picture .p_sub h3{
+    position: relative;
+    top: 40px;
+    left: 40px;
+}
+.s_picture .p_sub .sub_s{
+    width: 31px;
+    height: 31px;
+    position: relative;
+    top: -84px;
+    left: 6px;
+}
+.s_picture .p{
+    width: 90%;
+    font-size: 16px;
+    margin: 0 auto;
+    position: relative;
+    top: -80px;
+}
+
+/*    新闻部分   */
+.news:before,.news:after{
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+}
+.news{
+    position: relative;
+    top: -100px;
+}
+.news .wrap{
+    width: 90%;
+    margin: 0 auto;
+}
+.news .wrap .title{
+    margin: 20px 0;
+}
+.news .wrap .title>a{
+    font-size: 24px;
+}
+.news .wrap .main .box1{
+    width: 27%;
+    float: left;
+    margin-right: 2%;
+}
+.news .wrap .main .box1 img{
+    width: 100%;
+}
+.news .wrap .main .box1 span{
+    display: block;
+    width: 120px;
+    height: 40px;
+    background: rgba(7,82,140,.8);
+    position: relative;
+    top: -46px;
+    line-height: 40px;
+    color: white;
+    text-align: center;
+}
+.news .wrap .main .box1 h3,
+.news .wrap .main .box1 p{
+    position: relative;
+    top: -40px;
+}
+.news .wrap .main .box1 h3{
+    font-size: 18px;;
+}
+.news .wrap .main .box1 p{
+    font-size: 12px;
+}
+.news .wrap .main .box2{
+    width: 40%;
+    float: left;
+}
+.news .wrap .main .box2 .box2_ul li{
+    height: 65px;
+    border-bottom: 1px dashed #DDDDDD;
+    padding: 7px 40px;
+    box-sizing: border-box;
+}
+.news .wrap .main .box2 .box2_ul li p{
+    font-weight: normal;
+    font-size: 15px;
+}
+.news .wrap .main .box2 .box2_ul li:before{
+    content: '';
+    display: block;
+    width: 5px;
+    height: 5px;
+    background-color: #b0b0b0;
+    position: relative;
+    left: -30px;
+    top: 50%;
+    border-radius: 50%;
+}
+
+
+
+
+
